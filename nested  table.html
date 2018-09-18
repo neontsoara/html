@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nested table</title>
+    <style media="screen">
+    table {border: collapse:collapse;width:70px}
+    table, th,td {border: 1px solid black;}
+
+    </style>
+
+
+  </head>
+  <body>
+<h1>Nested table</h1>
+<table style="width :35%">
+
+  <tr>
+    <td>1</td>
+    <td colspan="3">2</td>
+  </tr>
+  <tr>
+   <td rowspan="3">3</td>
+
+
+   <td style="background-color:orange">4</td>
+   <td style="background-color:orange">5</td>
+   <td rowspan="2" style="background-color:yellow">6</td>
+  </tr>
+
+
+  <tr>
+    <td style="background-color:orange">7</td>
+      <td style="background-color:orange">8</td>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="background-color:yellow">9</td>
+      <td  style="background-color:yellow">10</td>
+  </tr>
+
+</table>
+
+
+<table>
+<tr>
+  <td>1</td>
+  <td colspan="4">2</td>
+</tr>
+
+<tr>
+<td rowspan="3">3</td>
+<td>
+  <table>
+<tr>
+    <td>4</td>
+    <td>5</td>
+<tr>
+<tr>
+  <td>7</td>
+  <td>8</td>
+</tr>
+</table>
+</td>
+
+<tr>
+  <td>9</td>
+  <td>10</td>
+
+</tr>
+
+
+
+
+
+
+
+</table>
+  </body>
+</html>
